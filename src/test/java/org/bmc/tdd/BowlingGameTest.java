@@ -18,12 +18,12 @@ class BowlingGameTest {
 
 	@Test
 	public void shouldReturn90PointsForOnly9s() {
-		assertEquals(90, theGame.getScore(Arrays.asList("9-","9-","9-","9-","9-","9-","9-","9-","9-","9-")));
+		assertEquals(90, theGame.getScore(Arrays.asList("9-", "9-", "9-", "9-", "9-", "9-", "9-", "9-", "9-", "9-")));
 	}
 
 	@Test
 	public void shouldReturn150PointsForOnly5s() {
-		assertEquals(150, theGame.getScore(Arrays.asList("5/","5/","5/","5/","5/","5/","5/","5/","5/","5/5")));
+		assertEquals(150, theGame.getScore(Arrays.asList("5/", "5/", "5/", "5/", "5/", "5/", "5/", "5/", "5/", "5/5")));
 	}
 
 	@Test
